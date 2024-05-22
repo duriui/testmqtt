@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: testmqtt
+  mqtt:
+    host: tcp://mqtt.bxlqzhgd.com:1883
+    qos: 1
+    clientId: mqtt_client_id_001
+    topic1: /labour/worker/3486
+    topic2: /labour/attendance/3486
+    timeout: 30
+    keepalive: 30
